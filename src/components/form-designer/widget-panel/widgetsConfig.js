@@ -521,6 +521,47 @@ export const basicFields = [
       onValidate: '',
     },
   },
+  {
+    type: 'my-picture',
+    icon: 'date-range-field',
+    formItemFlag: true,
+    options: {
+      name: '',
+      label: '',
+      labelAlign: '',
+      type: 'daterange',
+      defaultValue: null,
+      startPlaceholder: '',
+      endPlaceholder: '',
+      columnWidth: '200px',
+      size: '',
+      autoFullWidth: true,
+      labelWidth: null,
+      labelHidden: false,
+      readonly: false,
+      disabled: false,
+      hidden: false,
+      clearable: true,
+      editable: false,
+
+      required: false,
+      validation: '',
+      validationHint: '',
+      url:'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fa1083315-b776-471f-966c-f7da6840434b%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1690162917&t=701b8a902a10ed0f5faf30acd3c48e09',
+      //-------------------
+      customClass: '',  //自定义css类名
+      labelIconClass: null,
+      labelIconPosition: 'rear',
+      labelTooltip: null,
+      //-------------------
+      onCreated: '',
+      onMounted: '',
+      onChange: '',
+      onFocus: '',
+      onBlur: '',
+      onValidate: '',
+    },
+  },
 
   {
     type: 'switch',

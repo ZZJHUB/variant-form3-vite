@@ -328,6 +328,7 @@
     },
     methods: {
       showToolButton(configName) {
+        console.log(configName);
         if (this.designerConfig[configName] === undefined) {
           return true
         }

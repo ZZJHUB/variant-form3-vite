@@ -59,6 +59,7 @@ const COMMON_PROPERTIES = {
   'fileTypes'         :            'fileTypes-editor',
   'contentHeight'     :            'contentHeight-editor',
   'customClass'       :            'customClass-editor',
+  'url'               :            'url-editor',
 
   //容器
   'showBlankRow'       :            'showBlankRow-editor',

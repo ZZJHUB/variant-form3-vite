@@ -43,6 +43,7 @@ export default {
       'time-range':   '时间范围',
       date:           '日期',
       'date-range':   '日期范围',
+      'my-picture':   '图片',
       switch:         '开关',
       rate:           '评分',
       color:          '颜色选择器',
